@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4f4f4f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #040303f3;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+a.active {
+  background-color: rgb(16, 16, 16);
+  padding: 4px;
+  border-radius: 10px;
+}
