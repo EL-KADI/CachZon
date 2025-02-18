@@ -44,10 +44,9 @@ export default function TopUpTransferAr() {
     document.body.style.setProperty("--blending-value", blendingValue);
   }, []);
 
-  const accountSID = import.meta.env.VITE_TWILIO_ACCOUNT_SID;
-  const authToken = import.meta.env.VITE_TWILIO_AUTH_TOKEN;
-  const verifyServiceSID = import.meta.env.VITE_TWILIO_VERIFY_SERVICE_SID;
-  
+  const accountSID = "ACd19228ba00d064db276c491948454e8e";
+  const authToken = "3c449af3b61d709e38d67c48f56181c4";
+  const verifyServiceSID = "VA89814785567eb184e8e5826f2b4cbeca";
 
   const handlePhoneNumber1Change = (e) => {
     const inputPhoneNumber = e.target.value;
