@@ -178,7 +178,7 @@ export default function NavbarAr({ onLanguageChange }) {
               <li>
                 <NavLink
                   to="/"
-                  className="block py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                  className="block text-right py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                 >
                   الرئيسية
                 </NavLink>
@@ -186,7 +186,7 @@ export default function NavbarAr({ onLanguageChange }) {
               <li>
                 <NavLink
                   to="/topuptransfer"
-                  className="block py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                  className="block py-2 text-right px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                 >
                   تحويل رصيد
                 </NavLink>
@@ -194,7 +194,7 @@ export default function NavbarAr({ onLanguageChange }) {
               <li>
                 <NavLink
                   to="/wallet"
-                  className="block py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                  className="block py-2 text-right px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                 >
                   محفظة
                 </NavLink>
@@ -202,7 +202,7 @@ export default function NavbarAr({ onLanguageChange }) {
               <li>
                 <NavLink
                   to="/billpayment"
-                  className="block py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                  className="block py-2 text-right px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                 >
                   دفع فواتير
                 </NavLink>
@@ -210,7 +210,7 @@ export default function NavbarAr({ onLanguageChange }) {
               <li>
                 <NavLink
                   to="/offers"
-                  className="block py-2 px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
+                  className="block py-2 text-right px-3 lg:p-0 rounded-sm text-white lg:hover:text-[#777777] duration-200 hover:bg-gray-700 hover:text-white lg:hover:bg-transparent border-gray-700"
                 >
                   العروض
                 </NavLink>
